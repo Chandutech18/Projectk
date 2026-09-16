@@ -1,0 +1,12 @@
+{
+  "name": "royal-korutla-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "backend": "cd backend && cmd /c \"set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot&& mvn spring-boot:run\""
+  }
+}
